@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LightBodiesSite/static/css/main.bab40ef3.chunk.css",
+    "main.js": "/LightBodiesSite/static/js/main.adf81b80.chunk.js",
+    "main.js.map": "/LightBodiesSite/static/js/main.adf81b80.chunk.js.map",
+    "runtime-main.js": "/LightBodiesSite/static/js/runtime-main.0ae11e09.js",
+    "runtime-main.js.map": "/LightBodiesSite/static/js/runtime-main.0ae11e09.js.map",
+    "static/css/2.7a9b5128.chunk.css": "/LightBodiesSite/static/css/2.7a9b5128.chunk.css",
+    "static/js/2.8a88e7a3.chunk.js": "/LightBodiesSite/static/js/2.8a88e7a3.chunk.js",
+    "static/js/2.8a88e7a3.chunk.js.map": "/LightBodiesSite/static/js/2.8a88e7a3.chunk.js.map",
+    "index.html": "/LightBodiesSite/index.html",
+    "static/css/2.7a9b5128.chunk.css.map": "/LightBodiesSite/static/css/2.7a9b5128.chunk.css.map",
+    "static/css/main.bab40ef3.chunk.css.map": "/LightBodiesSite/static/css/main.bab40ef3.chunk.css.map",
+    "static/js/2.8a88e7a3.chunk.js.LICENSE.txt": "/LightBodiesSite/static/js/2.8a88e7a3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/LightBodiesSite/static/media/wallethover.e2894182.png",
+    "static/media/App.css": "/LightBodiesSite/static/media/testmentRegular.ed8974ca.ttf",
+    "static/media/lgLogo.png": "/LightBodiesSite/static/media/lgLogo.f23fb285.png",
+    "static/media/logo.6b3d56cc.png": "/LightBodiesSite/static/media/logo.6b3d56cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ae11e09.js",
+    "static/css/2.7a9b5128.chunk.css",
+    "static/js/2.8a88e7a3.chunk.js",
+    "static/css/main.bab40ef3.chunk.css",
+    "static/js/main.adf81b80.chunk.js"
+  ]
+}
