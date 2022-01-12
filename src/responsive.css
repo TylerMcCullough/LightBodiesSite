@@ -1,0 +1,875 @@
+@media screen and (max-width:1920px) {
+  .capsule {
+    top: 530px;
+    left: calc(50% - 19px);
+  }
+
+  .capsule img {
+    width: 160px;
+  }
+
+  .number {
+    top: 604px;
+    left: calc(50% - -42px);
+  }
+
+  .header-menu-img {
+    top: 633px;
+    left: calc(50% + 198px);
+  }
+
+  .wallet-button {
+    top: 586px;
+    left: calc(50% + 189px);
+  }
+
+  .light-header {
+    height: 925px;
+  }
+
+  .light-gallery {
+    height: 803px;
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 540px;
+  }
+
+  .capsule:hover div.capsule-animate {
+    transform: translateY(-75px);
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .capsule img {
+    width: 145px;
+  }
+
+  .capsule {
+    top: 523px;
+    left: calc(50% - 28px);
+  }
+
+  .number {
+    top: 589px;
+    left: calc(50% + 38px);
+  }
+
+  .header-menu-img {
+    top: 625px;
+    left: calc(50% + 189px);
+  }
+
+  .wallet-button {
+    top: 578px;
+    left: calc(50% + 183px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .capsule img {
+    width: 145px;
+  }
+
+  .capsule {
+    top: 514px;
+    left: calc(50% - 19px);
+  }
+
+  .number {
+    top: 589px;
+    left: calc(50% + 38px);
+  }
+
+  .header-menu-img {
+    top: 610px;
+    left: calc(50% + 173px);
+  }
+
+  .wallet-button {
+    top: 564px;
+    left: calc(50% + 166px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 19px);
+  }
+
+  .number {
+    top: 589px;
+    left: calc(50% + 38px);
+  }
+
+  .header-menu-img {
+    top: 599px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 460px;
+  }
+
+  .gallery-container .indicators {
+    transform: translateY(-18px);
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 11px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 450px;
+  }
+
+  .light-gallery {
+    height: 600px;
+  }
+
+  .gallery-container .indicators {
+    transform: translateY(-18px);
+  }
+}
+
+
+@media screen and (max-width: 1500px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 11px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 450px;
+  }
+
+  .gallery-container .indicators {
+    transform: translateY(-18px);
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 4px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 395px;
+  }
+
+  /* .gallery-container .default-nav {
+    margin-top: 365px;
+  } */
+
+  .gallery-container .indicators {
+    transform: translateY(-18px);
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% + 1px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% + 7px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 390px;
+  }
+
+  .gallery-container .indicators {
+    transform: translateY(-18px);
+  }
+}
+
+@media screen and (max-width: 1265px) {
+  .capsule img {
+    width: 135px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% + 9px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% + 31px);
+  }
+
+  .header-menu-img {
+    top: 600px;
+    left: calc(50% + 164px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 158px);
+  }
+
+}
+
+/* 
+@media screen and (max-width: 1220px) {
+  .capsule {
+    top: 360px;
+    left: calc(50% - 5px);
+  }
+} */
+
+@media screen and (max-width: 1180px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 14px);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 18px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 22px);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 36px);
+  }
+
+  .capsule img {
+    width: 133px;
+  }
+}
+
+/* Dimension Nest Hub */
+@media screen and (max-width: 1024px) {
+  .gallery-container .default-nav {
+    margin-top: 430px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% + 28px);
+  }
+
+  .nft-categories {
+    height: 345px;
+  }
+}
+
+
+@media screen and (max-width: 985px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 32px);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 37px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 40px);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 45px);
+  }
+}
+
+/*  800px */
+@media screen and (max-width: 800px) {
+  .gallery-container .default-nav {
+    margin-top: 395px;
+  }
+
+  .capsule img {
+    width: 132px;
+  }
+
+  .nft-categories {
+    height: 260px;
+  }
+
+  .light-gallery {
+    height: 780px;
+  }
+
+  .light-footer {
+    padding: 30px 4% 85px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-container .default-nav {
+    margin-top: 600px;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% + 48px);
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 51px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 54px);
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .capsule {
+    top: 504px;
+    left: calc(50% + 64px);
+  }
+
+  .nft-categories {
+    grid-template-columns: auto;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .light-header {
+    background-position: 60% 50%;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 42px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% - 79px);
+  }
+
+  .header-menu-img {
+    top: 598px;
+    left: calc(50% + 58px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 53px);
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 42px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% - 79px);
+  }
+
+  .header-menu-img {
+    top: 598px;
+    left: calc(50% + 53px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 48px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 500px;
+  }
+
+  .light-attribute-content {
+    flex-direction: column;
+  }
+
+  .light-nft-detail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .light-nft-category {
+    margin-left: 0px;
+  }
+
+  .nft-categories {
+    height: 385px;
+  }
+
+  .light-gallery {
+    height: 600px;
+  }
+
+  .light-gallery h3 {
+    margin: 0;
+  }
+
+  .light-footer {
+    flex-direction: column;
+  }
+  .page-description, .discord-member {
+    width: auto;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .gallery-container .default-nav {
+    margin-top: 375px;
+  }
+
+
+  .nft-categories {
+    grid-template-columns: auto;
+    height: 566px;
+  }
+
+  .light-footer {
+    padding: 30px 6% 85px;
+    flex-direction: column;
+  }
+
+  .page-description {
+    width: auto;
+  }
+
+  .description-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .page-description div p {
+    font-size: 27px;
+  }
+
+  .description {
+    margin: 20px 0px 20px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .link-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .useful-link {
+    font-size: 30px;
+  }
+
+  .discord-member {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .discord-member-header p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .App {
+    overflow: hidden;
+  }
+
+  .logo {
+    left: calc(50% - 42px);
+    top: 90px;
+  }
+
+  .header-menu-img {
+    top: 598px;
+    left: calc(50% + 40px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 35px);
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 500px;
+  }
+
+  .light-attribute-content {
+    flex-direction: column;
+  }
+
+  .light-nft-detail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .light-nft-category {
+    margin-left: 0px;
+  }
+
+  .nft-categories {
+    height: 527px;
+    grid-template-columns: auto;
+  }
+
+  .light-gallery {
+    height: 600px;
+    padding: 86px 5% 85px;
+  }
+
+  .light-gallery h3 {
+    margin: 0;
+  }
+
+  .light-footer {
+    padding: 30px 6% 85px;
+    flex-direction: column;
+  }
+
+  .page-description {
+    width: auto;
+  }
+
+  .description-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .page-description div p {
+    font-size: 27px;
+  }
+
+  .description {
+    margin: 20px 0px 20px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .link-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .useful-link {
+    font-size: 30px;
+  }
+
+  .discord-member {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .discord-member-header p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .App {
+    overflow: hidden;
+  }
+
+  .light-header {
+    background-position: 61% 50%;
+  }
+
+  .capsule {
+    top: 504px;
+    left: calc(50% - 57px);
+  }
+
+  .number {
+    top: 584px;
+    left: calc(50% - 105px);
+  }
+
+  .header-menu-img {
+    top: 598px;
+    left: calc(50% + 28px);
+  }
+
+  .wallet-button {
+    top: 551px;
+    left: calc(50% + 23px);
+  }
+
+  .logo {
+    left: calc(50% - 42px);
+    top: 74px;
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 500px;
+  }
+
+  .light-attribute-content {
+    flex-direction: column;
+  }
+
+  .light-nft-detail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .light-nft-category {
+    margin-left: 0px;
+  }
+
+  .nft-categories {
+    height: 527px;
+    grid-template-columns: auto;
+  }
+
+  .light-gallery {
+    height: 600px;
+    padding: 86px 5% 85px;
+  }
+
+  .light-gallery h3 {
+    margin: 0;
+  }
+
+  .light-footer {
+    padding: 30px 6% 85px;
+    flex-direction: column;
+  }
+
+  .page-description {
+    width: auto;
+  }
+
+  .description-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .page-description div p {
+    font-size: 27px;
+  }
+
+  .description {
+    margin: 20px 0px 20px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .link-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .useful-link {
+    font-size: 30px;
+  }
+
+  .discord-member {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .discord-member-header p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nft-categories {
+    height: 503px;
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .light-header {
+    background-size: auto;
+    height: 720px;
+  }
+
+  .capsule img {
+    width: 105px;
+  }
+
+  .capsule {
+    top: 361px;
+    left: calc(50% - 42px);
+  }
+
+  .number {
+    top: 450px;
+    left: calc(50% - 85px);
+  }
+
+  .header-menu-img {
+    top: 443px;
+    left: calc(50% + 7px);
+  }
+
+  .wallet-button {
+    top: 393px;
+    left: calc(50% + 2px)
+  }
+
+  .light-content {
+    padding: 30px 0;
+  }
+
+  .light-attribute {
+    padding: 10px 15%;
+  }
+
+  .gallery-container .default-nav {
+    margin-top: 385px;
+  }
+  .light-gallery {
+    padding-bottom: 0px!important;
+  }
+}

@@ -1,79 +1,88 @@
-import { lazy, Suspense, useEffect } from 'react';
-/// Components
-import Index from './jsx/index';
-import { connect, useDispatch } from 'react-redux';
-import {  Route, Switch, withRouter } from 'react-router-dom';
-// action
-import { checkAutoLogin } from './services/AuthService';
-import { isAuthenticated } from './store/selectors/AuthSelectors';
-/// Style
-import "./vendor/bootstrap-select/dist/css/bootstrap-select.min.css";
-import "./css/style.css";
+import React, { useState, useEffect } from "react";
+import "react-slideshow-image/dist/styles.css";
+import Header from "./screen/Header";
+import Content from "./screen/Content";
+import Attributes from "./screen/Attributes";
+import MiddleContent from "./screen/MiddleContent";
+import Factions from "./screen/Factions";
+import Galleries from "./screen/Galleries";
+import Footer from "./screen/Footer";
+import { contents } from "./mockup";
+import { initImmutableX, getBalances } from "./immutableXfunctions";
+import HeadLogo from "./screen/HeadLogo/HeadLogo";
+import FrontHeader from "./screen/FrontHeader/FrontHeader";
 
+function App() {
+  const [userAddress, setUserAddress] = useState(
+    localStorage.getItem("WALLET_ADDRESS")
+  );
+  const [balances, setBalances] = useState({
+    imxBalance: "",
+    preparingBalance: "",
+    withdrawableBalance: "",
+    nfts: [],
+  });
 
-const SignUp = lazy(() => import('./jsx/pages/Registration'));
-const ForgotPassword = lazy(() => import('./jsx/pages/ForgotPassword'));
-const Login = lazy(() => {
-    return new Promise(resolve => {
-		setTimeout(() => resolve(import('./jsx/pages/Login')), 500);
-	});
-});
-function App (props) {
-    const dispatch = useDispatch();
-    useEffect(() => {
-        checkAutoLogin(dispatch, props.history);
-    }, [dispatch, props.history]);
-    
-    let routes = (  
-        <Switch>
-            <Route path='/login' component={Login} />
-            <Route path='/page-register' component={SignUp} />
-            <Route path='/page-forgot-password' component={ForgotPassword} />
-        </Switch>
-    );
-    if (props.isAuthenticated) {
-		return (
-			<>
-                <Suspense fallback={
-                    <div id="preloader">
-                        <div className="sk-three-bounce">
-                            <div className="sk-child sk-bounce1"></div>
-                            <div className="sk-child sk-bounce2"></div>
-                            <div className="sk-child sk-bounce3"></div>
-                        </div>
-                    </div>  
-                   }
-                >
-                    <Index />
-                </Suspense>
-            </>
-        );
-	
-	}else{
-		return (
-			<div className="vh-100">
-                <Suspense fallback={
-                    <div id="preloader">
-                        <div className="sk-three-bounce">
-                            <div className="sk-child sk-bounce1"></div>
-                            <div className="sk-child sk-bounce2"></div>
-                            <div className="sk-child sk-bounce3"></div>
-                        </div>
-                    </div>
-                  }
-                >
-                    {routes}
-                </Suspense>
-			</div>
-		);
-	}
-};
+  const getUserBalances = async (address) => {
+    let result;
+    if (address) {
+      result = await getBalances(address);
+    } else {
+      result = await getBalances(userAddress);
+    }
 
-const mapStateToProps = (state) => {
-    return {
-        jwtToken: state.auth.auth.token,
-        isAuthenticated: isAuthenticated(state),
-    };
-};
+    if (result) {
+      setBalances(result);     
+    }
+  };
 
-export default withRouter(connect(mapStateToProps)(App)); 
+  const connectWallet = async () => {
+    if (window.ethereum) {
+      await window.ethereum.request({
+        method: "eth_requestAccounts",
+      });
+      let address = await initImmutableX();
+      if (address) {
+        setUserAddress(address);
+        localStorage.setItem("WALLET_ADDRESS", address);
+        getUserBalances(address);
+      }
+    } else {
+      window.alert("You need to have metamask to connect with the site");
+    }
+  };
+
+  const checkWallet = async () => {
+    console.log("checking account");
+    if (window.ethereum) {
+      if (window.ethereum.selectedAddress !== userAddress) {
+        setUserAddress("");
+      }
+    } else {
+      setUserAddress("");
+    }
+  };
+
+  useEffect(() => {}, []);
+
+  return (
+    <div className="App">
+      <HeadLogo />
+      <Header
+        userAddress={userAddress}
+        balances={balances}
+        connectWallet={connectWallet}
+        getUserBalances={getUserBalances}
+      />
+      <Content content={contents.who} />
+      {/* <Attributes /> */}
+      <MiddleContent content={contents.what} />
+      <MiddleContent content={contents.how} />
+      <Factions content={contents.factions} />
+      <Galleries />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;

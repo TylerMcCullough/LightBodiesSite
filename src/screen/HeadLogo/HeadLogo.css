@@ -1,0 +1,25 @@
+.headLogoMain{
+    background-color: #1a1f22;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.headLogoMain img{
+    height: 3em;
+    display: inline-block;
+    margin: auto 1em;
+}
+
+.headLogoMain h1{
+    font-family: "Amulet";
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+
+@media screen and (max-width:600px){
+    .headLogoMain h1{
+        font-size: 30px;
+    }
+}

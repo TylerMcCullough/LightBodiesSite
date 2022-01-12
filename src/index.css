@@ -1,9 +1,758 @@
-/* Coustom */
-@media only screen and (max-width: 991px) {
-  .sabuj_ml_tb_2 {
-    margin-left: 0.5rem !important;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #1a1f22;
+}
+
+.light-header-main {
+  background-image: linear-gradient(
+      180deg,
+      
+      rgba(26, 31, 34, 1) 5%,
+      rgba(26, 31, 34, 0.695098107602416) 10%,
+      rgba(26, 31, 34, 0.499019676229867) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      
+      rgba(255, 255, 255, 0) 80%,
+      rgba(26, 31, 34, 0.499019676229867) 85%,
+      rgba(26, 31, 34, 0.695098107602416) 90%,
+      rgba(26, 31, 34, 1) 95%
+    ),
+    url(./assets/images/background.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+}
+
+.light-header-main .light-header{
+  height: 60vw;
+}
+
+.mercenary {
+  background-image: linear-gradient(
+      180deg,
+
+      rgba(26, 31, 34, 1) 5%,
+      rgba(26, 31, 34, 0.695098107602416) 10%,
+      rgba(26, 31, 34, 0.499019676229867) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      
+      rgba(255, 255, 255, 0) 80%,
+      rgba(26, 31, 34, 0.499019676229867) 85%,
+      rgba(26, 31, 34, 0.695098107602416) 90%,
+      rgba(26, 31, 34, 1) 95%
+    ),
+    url(./assets/images/onlyMercenary.jpg);
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+}
+.monarch {
+  background-image: linear-gradient(
+      180deg,
+      
+      rgba(26, 31, 34, 1) 5%,
+      rgba(26, 31, 34, 0.695098107602416) 10%,
+      rgba(26, 31, 34, 0.499019676229867) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      
+      rgba(255, 255, 255, 0) 80%,
+      rgba(26, 31, 34, 0.499019676229867) 85%,
+      rgba(26, 31, 34, 0.695098107602416) 90%,
+      rgba(26, 31, 34, 1) 95%
+    ),
+    url(./assets/images/onlyMonarch.jpg);
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+}
+.diviner {
+  background-image: linear-gradient(
+      180deg,
+      
+      rgba(26, 31, 34, 1) 5%,
+      rgba(26, 31, 34, 0.695098107602416) 10%,
+      rgba(26, 31, 34, 0.499019676229867) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      
+      rgba(255, 255, 255, 0) 80%,
+      rgba(26, 31, 34, 0.499019676229867) 85%,
+      rgba(26, 31, 34, 0.695098107602416) 90%,
+      rgba(26, 31, 34, 1) 95%
+    ),
+    url(./assets/images/onlyDiviner.jpg);
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+}
+
+.test-article {
+  opacity: 0.01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px;
+  height: 100%;
+  background: #1a1f22;
+  background-image: url("./assets/images/Layer-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 30px;
+  transition: all 1.5s ease-in-out;
+}
+
+.test-article-big {
+  opacity: 0.01;
+  transition: all 1.5s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px;
+  height: 100%;
+  background: #1a1f22;
+  background-image: url("./assets/images/Layer-3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.test-article-small {
+  opacity: 0.01;
+  transition: all 1.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px;
+  height: 100%;
+  background: #1a1f22;
+  background-image: url("./assets/images/Layer-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.inview {
+  opacity: 1;
+}
+
+.light-header {
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-image {
+  height: 100%;
+  width: 33vw;
+}
+
+.category-image:hover {
+  cursor: pointer;
+}
+
+.light-article {
+  /* background: #1a1f22; */
+  color: antiquewhite;
+  padding: 3% 15%;
+  padding-bottom: 3%;
+  transition: all 1.5s ease-in-out;
+}
+.light-article-clone {
+  /* background: #1a1f22; */
+  color: antiquewhite;
+  padding: 1% 15%;
+  transition: all 1.5s ease-in-out;
+  opacity: 0.01;
+}
+
+.light-article h1,
+.light-article-clone h1 {
+  font-family: "Amulet";
+  font-size: 40px;
+}
+
+.light-article p,
+.light-article-clone p {
+  font-family: "Amulet";
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.light-article h3,
+.light-article-clone h3 {
+  font-family: "Amulet";
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.header-menu-img {
+  position: absolute;
+  top: 442px;
+  left: calc(50% + 114px);
+}
+
+.wallet-button {
+  position: absolute;
+  width: 142px;
+  height: 62px;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  top: 393px;
+  left: calc(50% + 109px);
+  transition: background-image 1.5s ease;
+  background-image: url(./assets/images/wallet.png);
+  background-position: center;
+}
+
+.wallet-button:hover {
+  background-image: url(./assets/images/wallethover.png);
+  background-position: center;
+}
+
+.logo {
+  position: absolute;
+  left: calc(50% - 42px);
+  top: 120px;
+}
+
+.logo p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Testments";
+}
+
+.light-content {
+  /* margin-top: -130px; */
+  /* background: linear-gradient(#1a1f2200, #1a1f22 55%); */
+
+  color: antiquewhite;
+  opacity: 0.01;
+  transition: all 1.5s ease-in-out;
+}
+
+.light-content h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  margin: 10px;
+  font-family: "Amulet";
+}
+
+.light-content button {
+  background: url(./assets/images/button.png);
+  background-repeat: no-repeat;
+  padding: 9px 11px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Amulet";
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.light-content button:hover {
+  box-shadow: 0px 0px 10px #74ca5e;
+}
+
+.light-attribute {
+  padding: 20px 15%;
+  /* background-color: #1a1f22; */
+  border: none;
+  margin-top: -1px;
+}
+
+.light-attribute h3 {
+  color: white;
+  font-family: "Amulet";
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.light-attribute-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.light-nft-detail {
+  flex: 1;
+  width: 50%;
+}
+
+.light-nft-detail button {
+  width: 60px !important;
+}
+
+.light-nft-detail .react-slideshow-container .default-nav:first-of-type {
+  margin-right: -90px !important;
+  transform: translate(-15px, -20px);
+}
+
+.light-nft-detail .react-slideshow-container .default-nav:last-of-type {
+  margin-left: -90px !important;
+  transform: translate(15px, -20px);
+}
+
+.light-nft-category {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: 80%;
+}
+
+.nft-option-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  margin-bottom: 17px;
+}
+
+.light-nft-select {
+  flex: 1;
+  width: 50%;
+}
+
+.light-nft-select div {
+  width: 95%;
+}
+
+.light-nft-select svg {
+  color: white;
+}
+
+.nft-categories {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto;
+  overflow-y: scroll;
+}
+
+.nft-categories::-webkit-scrollbar {
+  display: none;
+}
+
+.light-nft-one img {
+  width: 95%;
+}
+
+.slide-container {
+  height: 100%;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.nft-images {
+  width: 100%;
+  height: auto;
+}
+
+.main-description,
+.sub-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-description p {
+  margin: 5px 0px;
+  color: white;
+  font-size: 20px;
+  font-family: "Amulet";
+}
+
+.sub-description p {
+  margin: 5px 0px;
+  color: #408d60;
+  font-size: 14px;
+  font-family: "Amulet";
+}
+
+.light-nft-detail .react-slideshow-container .default-nav {
+  background-color: transparent !important;
+  color: white;
+}
+
+.nft-options {
+  width: 95%;
+  font-size: 14px;
+  padding: 9px 11px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1280px) {
+  .nft-categories {
+    height: 414px;
   }
-  body {
-    background: green;
+}
+
+@media screen and (min-width: 1281px) {
+  .nft-categories {
+    height: 414px;
   }
+}
+
+@media screen and (min-width: 1444px) {
+  .nft-categories {
+    height: 476px;
+  }
+}
+
+@media screen and (min-width: 1696px) {
+  .nft-categories {
+    height: 564px;
+  }
+}
+
+@keyframes capsule {
+  0% {
+    transform: translateY(0px);
+    padding-bottom: 0;
+  }
+
+  50% {
+    transform: translateY(-5px);
+    padding-bottom: 5px;
+  }
+
+  100% {
+    transform: translateY(0px);
+    padding-bottom: 0;
+  }
+}
+
+.number {
+  position: absolute;
+  top: 452px;
+  left: calc(50% - -25px);
+  width: auto;
+  z-index: 3;
+}
+
+.capsule {
+  position: absolute;
+  top: 360px;
+  left: calc(50% - 14px);
+  width: 8.5%;
+  z-index: 4;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.capsule-animate {
+  transition: all 1s ease;
+}
+
+.capsule img {
+  animation-name: capsule;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.capsule:hover img {
+  animation: normal;
+}
+
+.capsule:hover div.capsule-animate {
+  transform: translateY(-55px);
+}
+
+.light-gradient {
+  background: linear-gradient(to top, #1a1f2200, #1a1f22 60%);
+  height: 80px;
+  width: 100%;
+  position: relative;
+  z-index: 11;
+  margin-top: -2px;
+}
+
+.light-gallery {
+  background: linear-gradient(
+      180deg,
+      rgba(26, 31, 34, 1) 0%,
+      rgba(64, 31, 91, 0) 30%,
+      rgba(170, 70, 252, 0) 70%,
+      rgba(26, 31, 34, 1) 100%
+    ),
+    url(./assets/images/greenbackground.png);
+  height: 543px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  margin-top: -48px;
+  padding: 85px 15% 85px;
+}
+
+.light-gallery h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 41px;
+  font-family: "Amulet";
+}
+
+.gallery-container {
+}
+
+.gallery-nft img {
+  width: 100%;
+}
+
+.gallery-nft div {
+  background: #263e33;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+
+  margin-top: 14px;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+
+.gallery-nft {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.gallery-nft:hover img {
+  box-shadow: 0px 0px 20px rgb(116 202 94 / 75%);
+}
+
+.gallery-nft:hover div {
+  box-shadow: 0px 0px 20px rgb(116 202 94 / 75%);
+  font-family: "Amulet";
+}
+
+.light-gallery .react-slideshow-container .default-nav:first-of-type {
+  margin-right: -50px !important;
+  transform: translateX(15px);
+}
+
+.light-gallery .react-slideshow-container .default-nav:last-of-type {
+  margin-left: -50px !important;
+  transform: translateX(-15px);
+}
+
+.nft-third-fade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.react-slideshow-container {
+  justify-content: space-between;
+}
+
+.gallery-container .default-nav {
+  margin-top: 350px;
+  background: transparent !important;
+}
+
+.gallery-container .default-nav svg {
+  height: 20px;
+}
+
+.gallery-container .indicators {
+  margin-top: 0px !important;
+  color: #74ca5e;
+  padding-left: 0px !important;
+}
+
+.gallery-container .indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  padding: 9px !important;
+}
+
+.gallery-container ul.indicators .each-slideshow-indicator:before {
+  background: #74ca5e !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.gallery-container ul.indicators button.active:before {
+  box-shadow: 0 0px 10px 0 rgb(95 166 72), 0 0px 10px 0 rgb(95 167 72);
+}
+
+.light-up-gradient {
+  background: linear-gradient(#1a1f2200, #1a1f22 60%);
+  height: 80px;
+  width: 100%;
+  position: relative;
+  z-index: 20;
+  margin-top: -50px;
+}
+
+.light-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 61px 15% 85px;
+  background-color: #1a1f22;
+  margin-top: -2px;
+}
+
+.page-description {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.description-img {
+  width: 40px;
+  height: 40px;
+}
+
+.page-description div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-description div p {
+  font-family: "Testments";
+  margin: 0;
+  margin-left: 13px;
+  font-size: 14px;
+  color: white;
+}
+
+.description {
+  font-size: 12px;
+  font-family: "Amulet";
+  text-align: left;
+  margin: 5px 0px 20px;
+  color: white;
+  line-height: 14.62px;
+}
+
+.link-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.link-icon a {
+  text-decoration: none;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.page-footer-link {
+  justify-content: center;
+}
+
+.page-footer-link p {
+  margin: 5px;
+  color: white;
+  text-align: left;
+  font-family: "Amulet";
+}
+
+.useful-link {
+  padding-bottom: 20px;
+}
+
+.discord-member {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.discord-member-header {
+  background-color: #7289da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-right: 5px;
+}
+
+.discord-member-header p {
+  color: white;
+  margin: 0;
+  font-family: "Amulet";
+  font-size: 10px;
+}
+
+.discord-member-body {
+  padding: 10px;
+}
+
+.discord-member-body p {
+  text-align: left;
+  margin: 3px;
+  color: white;
+  font-family: "Amulet";
+  font-size: 10px;
+}
+
+.discord-member-body ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.discord-member-body ul {
+  padding-left: 10px;
+}
+
+.discord-member-body ul li img {
+  margin-right: 10px;
+}
+
+.discord-member-body ul li p {
+  color: white;
+  font-size: 10px;
+  font-family: "Amulet";
+  margin: 5px 0px;
+}
+
+.MuiPopover-paper {
+  box-shadow: 2px 2px 15px #383838 !important;
+}
+
+.MuiSelect-select {
+  text-align: left !important;
+}
+
+.MuiList-root {
+  background-color: #1a1f22;
+  padding: 12px 17px;
+}
+
+.MuiList-root .menu-item {
+  color: white;
+  font-family: "Amulet";
+  font-size: 14px;
+}
+
+.inview {
+  opacity: 1;
 }
