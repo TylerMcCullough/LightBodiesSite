@@ -227,7 +227,12 @@ const Factions = ({ content }) => {
       <div className="light-article">
         <h1>{content.title}</h1>
         <h3> {content.text[0].title}</h3>
-        <p>{content.text[0].text}</p>
+        <div className="frac-main-left">
+          <img src={require("../assets/images/"+content.text[0].img).default} alt={content.text[0].img} />
+          <div className="frac-content">
+            <p>{content.text[0].text}</p>
+          </div>
+        </div>
         <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">
@@ -264,7 +269,12 @@ const Factions = ({ content }) => {
           </div>
         </div>
         <h3> {content.text[1].title}</h3>
-        <p>{content.text[1].text}</p>
+        <div className="frac-main-right">
+          <img src={require("../assets/images/"+content.text[1].img).default} alt={content.text[1].img} />
+          <div className="frac-content">
+            <p>{content.text[1].text}</p>
+          </div>
+        </div>
         <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">
@@ -301,7 +311,12 @@ const Factions = ({ content }) => {
           </div>
         </div>
         <h3> {content.text[2].title}</h3>
-        <p>{content.text[2].text}</p>
+        <div className="frac-main-left">
+          <img src={require("../assets/images/"+content.text[2].img).default} alt={content.text[2].img} />
+          <div className="frac-content">
+            <p>{content.text[2].text}</p>
+          </div>
+        </div>
         <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">

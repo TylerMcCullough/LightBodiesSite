@@ -173,6 +173,23 @@ body {
   opacity: 0.01;
 }
 
+.frac-main-left, .frac-main-right {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+
+.frac-main-right {
+  flex-direction: row-reverse;
+}
+
+.frac-main-left img, .frac-main-right img {
+  width: 40%;
+  height: 100%;
+  display: block;
+}
+
 .light-article h1,
 .light-article-clone h1 {
   font-family: "Amulet";
@@ -191,6 +208,10 @@ body {
   font-family: "Amulet";
   font-size: 26px;
   line-height: 32px;
+}
+
+.light-article-clone.roadmap img{
+  width: 50%;
 }
 
 .header-menu-img {
@@ -396,6 +417,21 @@ body {
   background: transparent;
   color: white;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  .light-article-clone.roadmap img{
+    width: 100%;
+  }
+
+  .frac-main-left, .frac-main-right{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .frac-main-left img, .frac-main-right img{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1280px) {
