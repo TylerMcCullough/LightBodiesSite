@@ -171,16 +171,20 @@ const fadeAllImages = [
 
 const contents = {
   who: {
-    title: "Who Are The Light Bodies?",
-    text: "3 factions of Metaphysical Mentors assisting humans in accessing the untapped resources of power and potential that lies within.    Interdimensional beings crossing through to uncover and contribute to the great awakening and new understanding of what humans are truly capable of.    The Light Bodies are here to remove the shackles of control and guide you in taking your power back!",
+    title: "PLAY TO EARN PERSONAL GROWTH!",
+    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each week, you will receive challenges that you must take action and complete before the end of the week. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
-    title: "What Do They Do?",
-    text: "You will receive personal interdimensional letters and real life challenges from your Light Body, only accessible by owning them.    Teaching you how you can create your own reality using your own supernatural properties, provide an energy rich environment for your soul's vessel to thrive in as well as giving you the tools and strategies to create financial abundance and freedom in your life.",
+    title: "WHAT ARE FACTIONS?",
+    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our accounts in your challenge posts. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
   },
   how: {
-    title: "How It Works",
-    text: "The smart contract of each NFT is coded with the key to the portal that your metaphysical mentor travels through to deliver their letters.    Depending on which faction you own, you will receive the corresponding dispatch to the specific portal key you obtain. Giving you exclusive access to the worlds most talented and successful experts in creating the greatest life for yourself possible, characterized as your spirit guide!",
+    title: "HOW DO I WIN?",
+    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our accounts in your challenge posts. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
+  },
+  community: {
+    title: "MENTAL STRENGTH MILITIA",
+    text: "The Light Bodies boasts one of the most positive and supportive communities on the planet. We know that the road to self discovery, improvement and entrepreneurship is a lonely journey. You are going to lose a lot of the people who you once thought to be loyal. But you don’t have to take this adventure alone. We are all in this together!",
   },
   factions: {
     title: "Factions",
