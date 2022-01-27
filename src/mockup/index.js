@@ -175,11 +175,11 @@ const contents = {
     text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each week, you will receive challenges that you must take action and complete before the end of the week. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
-    title: "WHAT ARE FACTIONS?",
-    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our accounts in your challenge posts. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
+    title: "FACTIONS",
+    text: "The Light Bodies are separated into three key aspects of life. Each Faction is given a different challenge to accomplish depending on their specialization, giving members of each faction a shot at winning every single week! Thus owning multiple factions and completing each challenge gives you greater odds of winning.",
   },
   how: {
-    title: "HOW DO I WIN?",
+    title: "CHALLENGER REWARDS",
     text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our accounts in your challenge posts. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
   },
   community: {
@@ -187,7 +187,7 @@ const contents = {
     text: "The Light Bodies boasts one of the most positive and supportive communities on the planet. We know that the road to self discovery, improvement and entrepreneurship is a lonely journey. You are going to lose a lot of the people who you once thought to be loyal. But you don’t have to take this adventure alone. We are all in this together!",
   },
   factions: {
-    title: "Factions",
+    title: "THE LIGHT BODIES",
     text: [
       {
         img: "frac-div.PNG",
