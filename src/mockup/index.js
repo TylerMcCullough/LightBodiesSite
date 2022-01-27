@@ -192,17 +192,17 @@ const contents = {
       {
         img: "frac-div.PNG",
         title: "The Diviner",
-        text: "A master of self. Advanced in the laws of the Universe and how we as humans are connected and governed by them. A mentor that will guide you in the direction to truly tap into the higher faculties of the Human Being.",
+        text: "A master of self. Advanced in the laws of the Universe and how we as humans are connected and governed by them. A philosopher with a deep understanding of psychology. A mentor that will guide you in the direction to truly tap into the higher faculties of the Human Being.",
       },
       {
         img: "frac-mer.PNG",
         title: "The Mercenary",
-        text: "The relentless warrior. Carrying true power, courage, and hunger to every challenge. Your Mercenary will assist you in harnessing the strength to never take “Failure” as an option despite all hardships that life throws. To find what sets you ablaze from the inside out and use it to your advantage.",
+        text: "The relentless warrior. Carrying a confident, level head on his boulder shoulders. A true embodiment of health, fitness and motivation. Operating at peak performance as he feeds and treats the body and mind as the most important asset he has.",
       },
       {
         img: "frac-mon.PNG",
         title: "The Monarch",
-        text: "An Elite creator of value and prosperity. A business and entrepreneurship specialist, the Monarch will help you take an idea and turn it into a well-oiled gold mining machine!",
+        text: "An Elite creator of value and prosperity. Truly abundant in monetary riches, from his ability to understand the market. A business and entrepreneurship specialist, the Monarch will help you take an idea and turn it into a well oiled gold mining machine!",
       },
     ],
   },
