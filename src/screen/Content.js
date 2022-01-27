@@ -13,10 +13,9 @@ const Content = ({ content }) => {
       className={inView ? "light-content inview" : "light-content"}
       ref={ref}
     >
-      <h3>
-        Who Are The
-        <br /> Light Bodies
-      </h3>
+      <h4>
+        PLAY TO EARN PERSONAL GROWTH
+      </h4>
 
       <div className="light-article">
         {/* <h1>{content.title}</h1> */}
