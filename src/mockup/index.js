@@ -176,7 +176,7 @@ const contents = {
   },
   what: {
     title: "FACTIONS",
-    text: "The Light Bodies are separated into three key aspects of life. Each Faction is given a different challenge to accomplish depending on their specialization, giving members of each faction a shot at winning every single week! Thus owning multiple factions and completing each challenge gives you greater odds of winning.",
+    text: "Over 14 Million Variations, 9,999 Light Bodies broken into 3 Factions Of 3,333. Every Light Body is truly one of a kind! Separated by skill set, each faction specializes in a key aspect of life. Whichever Metaphysical Mentor you choose will challenge you accordingly. By completing these challenges, you will begin to advance your level in this area of life. With the opportunity to win badass rewards every single week! Thus owning multiple factions and completing each challenge gives you greater odds of winning.",
   },
   how: {
     title: "CHALLENGER REWARDS",
