@@ -172,7 +172,7 @@ const fadeAllImages = [
 const contents = {
   who: {
     title: "PLAY TO EARN PERSONAL GROWTH!",
-    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each week, you will receive challenges that you must take action and complete before the end of the week. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
+    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each month, you will receive challenges that you must take action on, assisting you in creating more beneficial habits in your life. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
     title: "FACTIONS",
@@ -180,7 +180,7 @@ const contents = {
   },
   how: {
     title: "CHALLENGER REWARDS",
-    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our accounts in your challenge posts. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
+    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our social accounts to show that you are taking your challenges seriously. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
   },
   community: {
     title: "MENTAL STRENGTH MILITIA",
