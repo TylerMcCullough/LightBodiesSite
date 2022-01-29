@@ -12,6 +12,7 @@ import { initImmutableX, getBalances } from "./immutableXfunctions";
 import HeadLogo from "./screen/HeadLogo/HeadLogo";
 import FrontHeader from "./screen/FrontHeader/FrontHeader";
 import RoadMap from "./screen/RoadMap";
+import DescSection from "./screen/DescSection";
 
 function App() {
   const [userAddress, setUserAddress] = useState(
@@ -79,8 +80,10 @@ function App() {
       {/* <Attributes /> */}
       <MiddleContent content={contents.what} />
       <MiddleContent content={contents.how} />
+      <MiddleContent content={contents.community} />
       <RoadMap />
       <Factions content={contents.factions} />
+      <DescSection />
       <Galleries />
       <Footer />
     </div>

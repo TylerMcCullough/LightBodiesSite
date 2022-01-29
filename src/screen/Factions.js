@@ -233,7 +233,7 @@ const Factions = ({ content }) => {
             <p>{content.text[0].text}</p>
           </div>
         </div>
-        <div className="light-attribute">
+        {/* <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">
             <div className="light-nft-detail">
@@ -267,7 +267,7 @@ const Factions = ({ content }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <h3> {content.text[1].title}</h3>
         <div className="frac-main-right">
           <img src={require("../assets/images/"+content.text[1].img).default} alt={content.text[1].img} />
@@ -275,7 +275,7 @@ const Factions = ({ content }) => {
             <p>{content.text[1].text}</p>
           </div>
         </div>
-        <div className="light-attribute">
+        {/* <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">
             <div className="light-nft-detail">
@@ -309,7 +309,7 @@ const Factions = ({ content }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <h3> {content.text[2].title}</h3>
         <div className="frac-main-left">
           <img src={require("../assets/images/"+content.text[2].img).default} alt={content.text[2].img} />
@@ -317,7 +317,7 @@ const Factions = ({ content }) => {
             <p>{content.text[2].text}</p>
           </div>
         </div>
-        <div className="light-attribute">
+        {/* <div className="light-attribute">
           <h3>attributes</h3>
           <div className="light-attribute-content">
             <div className="light-nft-detail">
@@ -351,15 +351,8 @@ const Factions = ({ content }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="light-article">
-          <MiddleContent content={{
-            title: "The Life Course That Only Ends When You Sell",
-            text: "Fill your personal success binder with incredible lessons, challenges, and worksheets from the smartest minds on the planet! Helping and guiding you through your life's journey of growth and success!"
-          }} />
-      </div>
-      <div className="light-gradient" />
     </>
   );
 };
