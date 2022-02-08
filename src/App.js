@@ -29,7 +29,7 @@ function App() {
     let result;
     if (address) {
       result = await getBalances(address);
-    } else {
+    } else { 
       result = await getBalances(userAddress);
     }
 
