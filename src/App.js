@@ -60,7 +60,7 @@ function App() {
       if (window.ethereum.selectedAddress !== userAddress) {
         setUserAddress("");
       }
-    } else {
+    } else { 
       setUserAddress("");
     }
   };
