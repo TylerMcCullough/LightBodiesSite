@@ -11,7 +11,8 @@ const DescSection = () => {
         <>
             <div className="light-article">
             <div
-                className={inView ? "light-article-clone inview" : "light-article-clone"}
+                // className={inView ? "light-article-clone inview" : "light-article-clone"}
+                className="light-article-clone inview"
                 ref={ref}
             >
                 <h1>Self Improvement Just Got A Lot More Rewarding!</h1>

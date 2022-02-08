@@ -10,7 +10,8 @@ const Content = ({ content }) => {
   });
   return (
     <div
-      className={inView ? "light-content inview" : "light-content"}
+      // className={inView ? "light-content inview" : "light-content"}
+      className="light-content inview"
       ref={ref}
     >
       <h3>

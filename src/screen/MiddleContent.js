@@ -7,7 +7,8 @@ const MiddleContent = ({ content }) => {
   });
   return (
     <div
-      className={inView ? "light-article-clone inview" : "light-article-clone"}
+      // className={inView ? "light-article-clone inview" : "light-article-clone"}
+      className="light-article-clone inview"
       ref={ref}
     >
       <h1>{content.title}</h1>
