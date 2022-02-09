@@ -172,7 +172,7 @@ const fadeAllImages = [
 const contents = {
   who: {
     title: "PLAY TO EARN PERSONAL GROWTH!",
-    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each month, you will receive challenges that you must take action on, assisting you in creating more beneficial habits in your life. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
+    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. With three factions to choose from, each faction offers three 60 Day Challenges ranging in difficulty within their specific aspect of life. Assisting you in creating more beneficial habits in your life. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
     title: "FACTIONS",
@@ -192,17 +192,17 @@ const contents = {
       {
         img: "frac-div.PNG",
         title: "The Diviner",
-        text: "A master of self. Advanced in the laws of the Universe and how we as humans are connected and governed by them. A philosopher with a deep understanding of psychology. A mentor that will guide you in the direction to truly tap into the higher faculties of the Human Being.",
+        text: "A mastermind of mind mastery, the Diviner shows one to raise awareness into a field of infinite possibilities. By releasing the shackles of the human minds limitations, the Diviner utilizes universal laws to harness the power of our spiritual faculties. A true director of destiny.",
       },
       {
         img: "frac-mer.PNG",
         title: "The Mercenary",
-        text: "The relentless warrior. Carrying a confident, level head on his boulder shoulders. A true embodiment of health, fitness and motivation. Operating at peak performance as he feeds and treats the body and mind as the most important asset he has.",
+        text: "By supplying one with the energy needed to enhance results on a daily basis, the Mercenary teaches that through discipline, one can step into their fullest potential. With dedication to one’s vitality, their vessel will see supernatural transformation. An energetic powerhouse.",
       },
       {
         img: "frac-mon.PNG",
         title: "The Monarch",
-        text: "An Elite creator of value and prosperity. Truly abundant in monetary riches, from his ability to understand the market. A business and entrepreneurship specialist, the Monarch will help you take an idea and turn it into a well oiled gold mining machine!",
+        text: "By utilizing dynamic routines to create efficient flow states and laser like focus, the Monarch will assist you in creating greater results on a daily basis. Adept in productivity and driven by purpose, the Monarch thrives on complete self reliance. An elite authority in financial prosperity.",
       },
     ],
   },
