@@ -184,7 +184,7 @@ const contents = {
   },
   community: {
     title: "CHALLENGE DESIGN",
-    text: "Below is the Light Bodies Personality Test. This test is designed to assess your character & assist you in choosing your faction. Each personality type cooresponds with one or multiple factions. It is your responsability to decide based on your personality type, the areas you want to develop and ultimately where you want to take your lifes journey going forward. Based on those answers is how you will design your challenges. We don't allign with creating a one size fits all method for an individuals personal growth. We will assist you with tools, guidance and insight, but it is your responsability to customize your challenges to create the next level you it takes to reach your desired destiny",
+    text: "Below is the Light Bodies Personality Test. This test is designed to assess your character & assist you in choosing your faction. Each personality type corresponds with one or multiple factions. It is your responsibility to decide based on your personality type, the areas you want to develop and ultimately where you want to take your life's journey going forward. Based on those answers is how you will design your challenges. We don't align with creating a one size fits all method for an individual's personal growth. We will assist you with tools, guidance and insight, but it is your responsibility to customize your challenges to create the next level you it takes to reach your desired destiny.",
   },
   factions: {
     title: "THE LIGHT BODIES",
