@@ -172,19 +172,19 @@ const fadeAllImages = [
 const contents = {
   who: {
     title: "PLAY TO EARN PERSONAL GROWTH!",
-    text: "The Light Bodies give away thousands of dollars in amazing prizes to the action takers of our community every single week! With three factions to choose from, owners design their own 30, 60 or 90 day challenges based around their factions specialization and growth operation. Assisting you in creating more beneficial habits in your life and incentivizing you to lead others in the direction of self improvement. Winners from each faction will be chosen during our weekly Power Talk. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself! Winners are not randomly selected, giving you the ability to truly earn rewards instead of a contingent luck of the draw!",
+    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each month, you will receive challenges that you must take action on, assisting you in creating more beneficial habits in your life. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
     title: "FACTIONS",
-    text: "Over 14 Million Variations, 9,999 Light Bodies broken into 3 Factions Of 3,333. Every Light Body is truly one of a kind! Separated by skill set, each faction specializes in a key aspect of life. Whichever Metaphysical Mentor you choose will challenge you accordingly. Each Faction has its own set of rarities for each property, creating some super rare variation that will carry benefits in the future! Holders of the Light Bodies will get exclusive first accessto every project launched by our team and associates in the future. We have incredible Web3 innovations in store and will be testing them with our community, who will be the first to create on our Marketplace and get advancements before they go public.",
+    text: "Over 14 Million Variations, 9,999 Light Bodies broken into 3 Factions Of 3,333. Every Light Body is truly one of a kind! Separated by skill set, each faction specializes in a key aspect of life. Whichever Metaphysical Mentor you choose will challenge you accordingly. By completing these challenges, you will begin to advance your level in this area of life. With the opportunity to win badass rewards every single week! Thus owning multiple factions and completing each challenge gives you greater odds of winning.",
   },
   how: {
-    title: "MENTAL STRENGTH MILITIA",
-    text: "The Light Bodies boasts one of the most resourceful and supportive communities on the planet. We know that the road to self discovery, improvement and entrepreneurship is a lonely journey. Joining a mastermind of Spiritual Warriors, Growth Junkies and Entrepreneurs is one of the greatest ways to hyperlapse your timeline to success. A driven community dedicated to the growth of their lives, business and contribution to society and the marketplace. This power plane is taking off, are you boarding or will you watch this opportunity depart without you? ",
+    title: "CHALLENGER REWARDS",
+    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our social accounts to show that you are taking your challenges seriously. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
   },
   community: {
-    title: "CHALLENGE DESIGN",
-    text: "Below is the Light Bodies Personality Test. This test is designed to assess your character & assist you in choosing your faction. Each personality type corresponds with one or multiple factions. It is your responsibility to decide based on your personality type, the areas you want to develop and ultimately where you want to take your life's journey going forward. Based on those answers is how you will design your challenges. We don't align with creating a one size fits all method for an individual's personal growth. We will assist you with tools, guidance and insight, but it is your responsibility to customize your challenges to create the next level you it takes to reach your desired destiny.",
+    title: "MENTAL STRENGTH MILITIA",
+    text: "The Light Bodies boasts one of the most positive and supportive communities on the planet. We know that the road to self discovery, improvement and entrepreneurship is a lonely journey. You are going to lose a lot of the people who you once thought to be loyal. But you don’t have to take this adventure alone. We are all in this together!",
   },
   factions: {
     title: "THE LIGHT BODIES",
@@ -192,17 +192,17 @@ const contents = {
       {
         img: "frac-div.PNG",
         title: "The Diviner",
-        text: "A mastermind of mind mastery, the Diviner shows one to raise awareness into a field of infinite possibilities. By releasing the shackles of the human minds limitations, the Diviner utilizes universal laws to harness the power of our spiritual faculties. A true director of destiny.",
+        text: "A master of self. Advanced in the laws of the Universe and how we as humans are connected and governed by them. A philosopher with a deep understanding of psychology. A mentor that will guide you in the direction to truly tap into the higher faculties of the Human Being.",
       },
       {
         img: "frac-mer.PNG",
         title: "The Mercenary",
-        text: "By supplying one with the energy needed to enhance results on a daily basis, the Mercenary teaches that through discipline, one can step into their fullest potential. With dedication to one’s vitality, their vessel will see supernatural transformation. An energetic powerhouse.",
+        text: "The relentless warrior. Carrying a confident, level head on his boulder shoulders. A true embodiment of health, fitness and motivation. Operating at peak performance as he feeds and treats the body and mind as the most important asset he has.",
       },
       {
         img: "frac-mon.PNG",
         title: "The Monarch",
-        text: "By utilizing dynamic routines to create efficient flow states and laser like focus, the Monarch will assist you in creating greater results on a daily basis. Adept in productivity and driven by purpose, the Monarch thrives on complete self reliance. An elite authority in financial prosperity.",
+        text: "An Elite creator of value and prosperity. Truly abundant in monetary riches, from his ability to understand the market. A business and entrepreneurship specialist, the Monarch will help you take an idea and turn it into a well oiled gold mining machine!",
       },
     ],
   },
