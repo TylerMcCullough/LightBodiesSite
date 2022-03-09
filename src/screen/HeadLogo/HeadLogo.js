@@ -16,8 +16,8 @@ const HeadLogo = () => {
                 <h1>LIGHT BODIES</h1>
             </div>
             <div className='paths'>
-                <Link to="/" style={path.pathname==="/"?selectedStyle:{}} >Home</Link>
-                <Link to="/nftCollections" style={path.pathname==="/nftCollections"?selectedStyle:{}} >NFT Collections</Link>
+            <a href="/" style={path.pathname==="/"?selectedStyle:{}} >Home</a>
+            <Link to="/nftCollections" style={path.pathname==="/nftCollections"?selectedStyle:{}} >NFT Collections</Link>
             </div>
         </div>
     )
