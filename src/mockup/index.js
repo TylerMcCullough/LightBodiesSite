@@ -172,19 +172,19 @@ const fadeAllImages = [
 const contents = {
   who: {
     title: "PLAY TO EARN PERSONAL GROWTH!",
-    text: "The Light Bodies are bringing Play To Earn Mechanics to the Personal Development Industry,  making the self improvement process even more rewarding! We are developing projects that will lay the foundation of the value Web 3 has to offer, which you can read about in our Lightpaper. However, instead of waiting for those projects to release their utility, we are giving away thousands in rewards every week to owners who stay disciplined in challenging themselves and documenting their journey!",
+    text: "The Light Bodies give away thousands of dollars in amazing prizes to the winners of our challenges every single week. Each month, you will receive challenges that you must take action on, assisting you in creating more beneficial habits in your life. Winners from each faction will be chosen during our weekly Power Talk meeting. The single greatest way to help someone is by assisting them in taking action. At the Light Bodies, you are financially incentivised to create a better life for yourself!",
   },
   what: {
     title: "FACTIONS",
-    text: "Personal Development can be broken down into three categories. Happiness, health and wealth. We have created a faction to correspond with each aspect of life and are developing an ecosystem of projects to encapsulate all of the most important areas to grow. Using the cutting edge blockchain technology to innovate and add massive value to industries projected to reach 800 Billion annually by 2028! Check out our LightPaper for more in depth information!",
+    text: "Over 14 Million Variations, 9,999 Light Bodies broken into 3 Factions Of 3,333. Every Light Body is truly one of a kind! Separated by skill set, each faction specializes in a key aspect of life. Whichever Metaphysical Mentor you choose will challenge you accordingly. By completing these challenges, you will begin to advance your level in this area of life. With the opportunity to win badass rewards every single week! Thus owning multiple factions and completing each challenge gives you greater odds of winning.",
   },
   how: {
     title: "CHALLENGER REWARDS",
-    text: "We are using the funds accumulated with our NFT sales to fund the ventures you read about in our Lightpaper, we are still offering amazing utility while we build! Below you will find a personality assessment that will assist you in choosing your faction. Within your owners manual that you will get with your Light Body you will get instructions on how to create your challenges and enter the giveaways! We are giving away thousands in rewards every week to owners from each faction who stay disciplined in achieving their goals. Paid in resources to speed up and enhance your growth journey!",
+    text: "Winners are not randomly selected. Our team watches for effort, consistency and creativity within your journey here. The biggest way to grab our attention and show that you are dedicated, is to tag our social accounts to show that you are taking your challenges seriously. The more powerful and hungry you show up, the more likely you are to be rewarded. ",
   },
   community: {
     title: "MENTAL STRENGTH MILITIA",
-    text: "The Light Bodies boasts one of the most positive and supportive communities in the game. Do you love growth and challenging yourself? Are you into health and fitness?  Are you looking to start a business or be a part of a startup? Have you seen others on their journeys and want a group to push and hold you accountable? The Mental Strength Militia couldn’t be a better place to be! This is where you will find real Alpha to implement, a community making juicy gains together in every aspect of life!",
+    text: "The Light Bodies boasts one of the most positive and supportive communities on the planet. We know that the road to self discovery, improvement and entrepreneurship is a lonely journey. You are going to lose a lot of the people who you once thought to be loyal. But you don’t have to take this adventure alone. We are all in this together!",
   },
   factions: {
     title: "THE LIGHT BODIES",
