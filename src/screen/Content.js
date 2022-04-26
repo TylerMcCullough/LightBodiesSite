@@ -15,8 +15,8 @@ const Content = ({ content }) => {
       ref={ref}
     >
       <h3>
-        PLAY TO EARN
-        <br /> PERSONAL GROWTH
+        BURN TO EARN
+        <br /> FITNESS
       </h3>
 
       <div className="light-article">
