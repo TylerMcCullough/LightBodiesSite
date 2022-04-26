@@ -1,0 +1,51 @@
+.headLogoMain {
+    font-family: "Amulet";
+    background-color: #1a1f22;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+.headLogoMain .comLogo{
+    display: flex;
+}
+
+.headLogoMain .comLogo img {
+  height: 3em;
+  display: inline-block;
+  margin: auto 1em;
+}
+
+.headLogoMain .comLogo h1 {
+  font-size: 30px;
+  color: white;
+  display: inline;
+  white-space: nowrap;
+}
+
+
+.headLogoMain .paths{
+    display: flex;
+    align-items: center;
+}
+
+.headLogoMain .paths a{
+    color: gray;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .headLogoMain{
+        padding: 1em 1em 0;
+    }
+
+    .headLogoMain .comLogo img {
+        height: 2em;
+    }
+
+    .headLogoMain .comLogo h1 {
+        font-size: 15px;
+    }
+}
