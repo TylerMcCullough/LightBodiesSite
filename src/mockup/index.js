@@ -171,27 +171,27 @@ const fadeAllImages = [
 
 const contents = {
   who: {
-    title: 'PLAY TO EARN PERSONAL GROWTH!',
+    title: 'BURN TO EARN FITNESS',
     text:
-      'The Light Bodies are bringing Play To Earn Mechanics to the Personal Development Industry,  making the self improvement process even more rewarding! We are developing projects that will lay the foundation of the value Web 3 has to offer, which you can read about in our Lightpaper. However, instead of waiting for those projects to release their utility, we are giving away thousands in rewards every week to owners who stay disciplined in challenging themselves and documenting their journey!'
+      'The Light Bodies are bringing Play To Earn Mechanics to the fitness industry, where your body now becomes the controller of the game that rewards you for leveling up your health! Utilizing the cutting edge of health tracking wearable technology, we are designing an economy and ecosystem around living a healthier lifestyle paired with the most valuable fitness application of its kind. Earning multiplier NFTs can be collected and staked to increase the amount of utility tokens you earn as you challenge your body with strenuous activity. You will be able to spend these tokens on the products, plans and routines that we have to offer. A healthy economy encourages spending rather than trading, our goal is to provide what you want to spend your money on within our ecosystem.'
   },
   what: {
-    title: 'FACTIONS',
+    title: 'THE CUTTING EDGE',
     text:
-      'Personal Development can be broken down into three categories. Happiness, health and wealth. We have created a faction to correspond with each aspect of life and are developing an ecosystem of projects to encapsulate all of the most important areas to grow. Using the cutting edge blockchain technology to innovate and add massive value to industries projected to reach 800 Billion annually by 2028! Check out our LightPaper for more in depth information!'
+      'Creative innovation is our highest priority as a pioneering Web 3 tech company. Our goal is to remain ahead of the curve, bringing the most innovative, valuable and fun experiences, products and services to the fitness industry. A deep understanding of Web 3 and the structure it brings gives us a huge advantage over any competitors, consuming an industry projected to hit 435B annually by 2028! You can read more in depth information about our plans and other industries we plan to tackle in our LightPaper!'
   },
   how: {
-    title: 'CHALLENGER REWARDS',
+    title: 'HOLDER BENEFITS',
     text:
-      'We are using the funds accumulated with our NFT sales to fund the ventures you read about in our Lightpaper, we are still offering amazing utility while we build! Below you will find a personality assessment that will assist you in choosing your faction. Within your owners manual that you will get with your Light Body you will get instructions on how to create your challenges and enter the giveaways! We are giving away thousands in rewards every week to owners from each faction who stay disciplined in achieving their goals. Paid in resources to speed up and enhance your growth journey!'
+      'The owners of the Mercenary will earn 2X the average user and can be stacked using other multiplier NFTs. Mercenary holders have a huge role in the decision making process with product design, firmware and application features, tokenomics and ideas we implement into our ecosystem. The Light Bodies as a collective will be building together and will be rewarded the heaviest out of any user that enters our ecosystem. In every venture we embark on, whether it be the plethora of online projects we have in store, the events and seminars we will be hosting or our training centers, Light Bodies owners will always receive an owners experience and remain our top priority.'
   },
   community: {
     title: 'MENTAL STRENGTH MILITIA',
     text:
-      'The Light Bodies boasts one of the most positive and supportive communities in the game. Do you love growth and challenging yourself? Are you into health and fitness?  Are you looking to start a business or be a part of a startup? Have you seen others on their journeys and want a group to push and hold you accountable? The Mental Strength Militia couldn’t be a better place to be! This is where you will find real Alpha to implement, a community making juicy gains together in every aspect of life!'
+      'The Light Bodies boasts one of the most positive and supportive communities in the game. Do you love growth and challenging yourself? Are you into health and fitness?  Need a group to hold you accountable and lift you up? The Mental Strength Militia couldn’t be a better place to be! This is where you will find true Alpha to implement, a community making juicy gains together in every aspect of life!'
   },
   factions: {
-    title: 'THE LIGHT BODIES',
+    title: 'THE INFRASTRUCTURE',
     text: [
       {
         img: 'frac-mer.PNG',
@@ -201,15 +201,15 @@ const contents = {
       },
       {
         img: 'frac-div.PNG',
-        title: 'The Diviner',
+        title: 'Your Controller',
         text:
-          "A mastermind of mind mastery, the Diviner shows one to raise awareness into a field of infinite possibilities. By releasing the shackles of the human mind's limitations, the Diviner utilizes universal laws to harness the power of our spiritual faculties. A true director of destiny."
+          "Partnering with a manufacturing facility with over 10 years of professional experience, The Light Bodies are bringing you state of the art technology! Our smartwatch gives you in depth insight and tracking of your blood oxygen levels, ECG, heart rate, body temperature, HRV for stress levels, sleep monitor, multiple sport and exercise modes and activity tracking! This cutting edge tech is housed in stainless steel with 3D touch screen AMOLED glass, boasting a crystal clear and aesthetic appearance."
       },
       {
         img: 'frac-mon.PNG',
-        title: 'The Monarch',
+        title: 'Youe Headquarters',
         text:
-          'By utilizing dynamic routines to create efficient flow states and laser like focus, the Monarch will assist you in creating greater results on a daily basis. Adept in productivity and driven by purpose, the Monarch thrives on complete self reliance. An elite authority in financial prosperity.'
+          'You can’t manage what you can’t measure, what is more important to your life and longevity than your health and wellness? Partnering with one of the leading fitness application development teams, our app will be your hub for every piece of your vitality puzzle. Filled with workout routines, diet plans, macro tracking, all of the health data logged by your watch and so much more. We plan to pack everything you could ever need on your fitness journey into one app that runs on our economy and ecosystem!'
       }
     ]
   }
