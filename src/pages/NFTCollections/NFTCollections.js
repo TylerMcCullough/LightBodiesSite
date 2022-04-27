@@ -77,14 +77,12 @@ const NFTCollections = () => {
           // sx={{ color:"white" }}
         >
           <Tab classes={tabClasses} label="Mercenary" {...a11yProps(0)} />
-          <Tab classes={tabClasses} label="Monarch" {...a11yProps(1)} />
-          <Tab classes={tabClasses} label="Diviner" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel className={classes.content} value={value} index={0}>
         <iframe 
           title='Mercenary'
-          src='https://opensea.io/collection/lightbodiesmercenary?embed=true'
+          src='https://opensea.io/collection/thelightbodies?embed=true'
           width='100%'
           height="100%"
           frameborder='0'

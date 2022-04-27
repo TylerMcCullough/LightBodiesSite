@@ -171,7 +171,7 @@ const fadeAllImages = [
 
 const contents = {
   who: {
-    title: 'BURN TO EARN FITNESS',
+    title: 'TRAIN TO GAIN FITNESS',
     text:
       'The Light Bodies are bringing Play To Earn Mechanics to the fitness industry, where your body now becomes the controller of the game that rewards you for leveling up your health! Utilizing the cutting edge of health tracking wearable technology, we are designing an economy and ecosystem around living a healthier lifestyle paired with the most valuable fitness application of its kind. Earning multiplier NFTs can be collected and staked to increase the amount of utility tokens you earn as you challenge your body with strenuous activity. You will be able to spend these tokens on the products, plans and routines that we have to offer. A healthy economy encourages spending rather than trading, our goal is to provide what you want to spend your money on within our ecosystem.'
   },
@@ -195,19 +195,19 @@ const contents = {
     text: [
       {
         img: 'frac-mer.PNG',
-        title: 'The Mercenary',
+        title: 'ECOSYSTEM',
         text:
-          'By supplying one with the energy needed to enhance results on a daily basis, the Mercenary teaches that through discipline, one can step into their fullest potential. With dedication to one’s vitality, their vessel will see supernatural transformation. An energetic powerhouse.'
+          'With Upgradable NFTs and NFT staking you are able to multiply your earnings and compound the amount of utility tokens accumulated for your efforts. You can use these utility tokens to buy and stack NFTs as well as power up your gear. We will also offer new age workout routines, diet plans, supplements and physical gear which will be able to purchase using your earnings within our ecosystem. A full economy that promotes spending rather than trading, stimulating healthy growth to the token.'
       },
       {
         img: 'frac-div.PNG',
-        title: 'Your Controller',
+        title: 'CONSOLE',
         text:
           "Partnering with a manufacturing facility with over 10 years of professional experience, The Light Bodies are bringing you state of the art technology! Our smartwatch gives you in depth insight and tracking of your blood oxygen levels, ECG, heart rate, body temperature, HRV for stress levels, sleep monitor, multiple sport and exercise modes and activity tracking! This cutting edge tech is housed in stainless steel with 3D touch screen AMOLED glass, boasting a crystal clear and aesthetic appearance."
       },
       {
         img: 'frac-mon.PNG',
-        title: 'Youe Headquarters',
+        title: 'HEADQUARTERS',
         text:
           'You can’t manage what you can’t measure, what is more important to your life and longevity than your health and wellness? Partnering with one of the leading fitness application development teams, our app will be your hub for every piece of your vitality puzzle. Filled with workout routines, diet plans, macro tracking, all of the health data logged by your watch and so much more. We plan to pack everything you could ever need on your fitness journey into one app that runs on our economy and ecosystem!'
       }
