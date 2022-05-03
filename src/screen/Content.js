@@ -26,5 +26,9 @@ const Content = ({ content }) => {
     </div>
   );
 };
-
+{
+  <video src="Videos/first promotion.mp4" controls>
+    
+  </video>
+}
 export default Content;
