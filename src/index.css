@@ -792,3 +792,9 @@ body {
 .inview {
   opacity: 1;
 }
+
+
+.promotion_Video{
+  width: 100%;
+  margin-top: 10px;
+}

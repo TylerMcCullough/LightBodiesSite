@@ -57,5 +57,8 @@
   "engines": {
     "npm": ">=6.0.0",
     "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "video.js": "^7.18.1"
   }
 }
