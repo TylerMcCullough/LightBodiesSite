@@ -173,22 +173,22 @@ const contents = {
   who: {
     title: 'TRAIN TO GAIN FITNESS',
     text:
-      'The Light Bodies are bringing Play To Earn Mechanics to the fitness industry, where your body now becomes the controller of the game that rewards you for leveling up your health! Utilizing the cutting edge of health tracking wearable technology, we are designing an economy and ecosystem around living a healthier lifestyle paired with the most valuable fitness application of its kind. Earning multiplier NFTs can be collected and staked to increase the amount of utility tokens you earn as you challenge your body with strenuous activity. You will be able to spend these tokens on the products, plans and routines that we have to offer. A healthy economy encourages spending rather than trading, our goal is to provide what you want to spend your money on within our ecosystem.'
+      'The Light Bodies are bringing Play To Earn Mechanics to the fitness industry, where your body now becomes the controller of the game that rewards you for leveling up your workouts! Utilizing the cutting edge of health tracking wearable technology, we are designing an economy and ecosystem around living a healthier lifestyle paired with the most valuable fitness application of its kind. Earning multiplier NFTs can be collected and staked to increase the amount of utility tokens you earn as you challenge your body with strenuous activity. You will be able to spend these tokens on the products, upgrades, plans and routines that we have to offer. A healthy economy encourages spending rather than trading, our goal is to provide what you want to spend your money on within our ecosystem.'
   },
   what: {
     title: 'THE CUTTING EDGE',
     text:
-      'Creative innovation is our highest priority as a pioneering Web 3 tech company. Our goal is to remain ahead of the curve, bringing the most innovative, valuable and fun experiences, products and services to the fitness industry. A deep understanding of Web 3 and the structure it brings gives us a huge advantage over any competitors, consuming an industry projected to hit 435B annually by 2028! You can read more in depth information about our plans and other industries we plan to tackle in our LightPaper!'
+      'Creative innovation is our highest priority as a pioneering Web 3 tech company. Our goal is to remain ahead of the curve, bringing the most innovative, valuable and fun experiences, products and services to the fitness industry. A deep understanding of Web 3 and the structure it brings gives us a huge advantage over any competitors, consuming an industry projected to hit 435B annually by 2028! You can read more in depth information about our longevity and other industries we plan to tackle in our LightPaper!'
   },
   how: {
     title: 'HOLDER BENEFITS',
     text:
-      'The owners of the Mercenary will earn 2X the average user and can be stacked using other multiplier NFTs. Mercenary holders have a huge role in the decision making process with product design, firmware and application features, tokenomics and ideas we implement into our ecosystem. The Light Bodies as a collective will be building together and will be rewarded the heaviest out of any user that enters our ecosystem. In every venture we embark on, whether it be the plethora of online projects we have in store, the events and seminars we will be hosting or our training centers, Light Bodies owners will always receive an owners experience and remain our top priority.'
+      'Our goal is to promote and glorify fitness as it is an incredible metaphor for life itself, therefore we support and push those who aspire to create an influential lifestyle around fitness and self improvement with rewards and reposts to our social followings. Putting our community first in promoting their content! The owners of the Mercenary will earn 2X the average user in our Train & Gain economy. Mercenary holders have a huge role in the decision making process with product design, firmware, application features and ideas we implement into our ecosystem. The Light Bodies as a collective will be building together and owners of our first collection will be rewarded the heaviest out of any user that enters our ecosystem.'
   },
   community: {
-    title: 'MENTAL STRENGTH MILITIA',
+    title: 'ATHLETE ILLUMINATI',
     text:
-      'The Light Bodies boasts one of the most positive and supportive communities in the game. Do you love growth and challenging yourself? Are you into health and fitness?  Need a group to hold you accountable and lift you up? The Mental Strength Militia couldn’t be a better place to be! This is where you will find true Alpha to implement, a community making juicy gains together in every aspect of life!'
+      'The Light Bodies are building the first and greatest NFT Community to represent the fitness industry! Within our Discord, we host Q&As, events and meetings with industry leading athletes and smartest minds in the health and fitness game. Being a part of a network that pushes one another to level up their lives is an experience that can change everything for you. Your life is a direct representation of the expectations of your peer group, fortunately it has never been easier to choose those who you surround yourself with.'
   },
   factions: {
     title: 'THE INFRASTRUCTURE',
